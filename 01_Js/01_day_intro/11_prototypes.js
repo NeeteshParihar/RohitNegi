@@ -67,7 +67,7 @@
   
 	  // modifying the identifiers names 
   
-	  // user1 mai se age lekar uman mai daal do 
+	  // user1 mai se age lekar umar mai daal do 
 	  const { age : umar , address : pata} = user1 ;
   
 	   // console.log(age) ;cannot access through age its not defined 
@@ -235,8 +235,11 @@
   
 	  console.log(Object.prototype.__proto__ == null) ;
   
-  
+
+	  // i have explained the prototypes in the desktop/books/Js file   
   
   
   }
+
+
   

@@ -89,85 +89,69 @@ console.log(age);
   var age = 20;
   var age = 50;
 
-  // ek hi naam se multiple variables within same scope 
+  // ek hi naam se multiple variables within same scope
   console.log(age);
 
   {
-	var age = 5 ;
+    var age = 5;
   }
 
-  console.log(age) ;  // again naya age ban gaya with value 5 , this behaviour can invite bugs in the programs 
-  
+  console.log(age); // again naya age ban gaya with value 5 , this behaviour can invite bugs in the programs
 
-  let amount = 50 ;
+  let amount = 50;
 
   {
-	// console.log(amount) ;  nahi use kar sakte kyoi hamne is scope mai amount decalre kar diya hai so 
-	// priority local variable ko milti hai and amount accessible nahi hota jo is block mai nahi hai 
+    // console.log(amount) ;  nahi use kar sakte kyoi hamne is scope mai amount decalre kar diya hai so
+    // priority local variable ko milti hai and amount accessible nahi hota jo is block mai nahi hai
 
-	let amount = 5 ;
-	console.log(amount) ;
-  }	
+    let amount = 5;
+    console.log(amount);
+  }
 
-  // yaha pe local variable accessible nhai hai , kuoki bo yaha exist hi nahi karta 
+  // yaha pe local variable accessible nhai hai , kuoki bo yaha exist hi nahi karta
   // scope : also defines the existence
 
-  console.log(amount) ;
-
-
-
-
+  console.log(amount);
 }
 
 {
+  // hoisting in functions
 
-	// hoisting in functions 
+  greet1(); // classical function decalre hone se pehle bhi accessible hota hai and baad mai bhi
 
+  function greet1() {
+    console.log("hello 1");
+  }
 
-	greet1() ; // classical function decalre hone se pehle bhi accessible hota hai and baad mai bhi 
+  greet1();
 
-	function greet1(){
-		console.log("hello 1") ;
-	}
+  try {
+    greet2();
+  } catch (error) {
+    console.log("greet2 not accessible");
+  }
 
-	greet1() ;
+  const greet2 = function () {
+    console.log("hello 2");
+  };
 
-	try{
-		greet2() ;
-	}catch(error){
-		console.log("greet2 not accessible") ;
-	}
+  greet2();
 
+  try {
+    greet3();
+  } catch (error) {
+    console.log("greet3 not accessible");
+  }
 
-	const greet2 = function(){
-		console.log("hello 2") ;
-	}
+  const greet3 = () => {
+    console.log("hello 3");
+  };
 
-	greet2() ;
+  greet3();
 
-
-
-	try{
-		greet3() ;
-	}catch(error){
-		console.log("greet3 not accessible") ;
-	}
-
-
-	const greet3 = ()=>{
-		console.log("hello 3") ;
-	}
-
-	greet3() ;
-
-
-	let i = 0 ;
-	// do while loop atlest ek baar to chalta hui hai
-	do{
-
-		console.log("hello " , i ) ;
-
-	}while(i < 0) ;
-
-
+  let i = 0;
+  // do while loop atlest ek baar to chalta hui hai
+  do {
+    console.log("hello ", i);
+  } while (i < 0);
 }
