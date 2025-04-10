@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Next Olympics</title>
+
+    <style>
+      body {
+        background: linear-gradient(45deg, rgba(8, 87, 206, 0.877) 49%, rgb(231, 69, 5) 50%);
+        color: white;
+        font-family : 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif ;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+		font-size: 20px;
+      }
+      h4 {
+        font-size: 50px;
+      }
+
+	  .days{
+		border : 1px solid white ;
+		padding : 10px 20px  ;
+		border-radius: 10px;
+		font-weight: 800;
+		box-shadow: 5px 5px 5px black;
+		
+	  }
+
+	  .time{
+		margin-top : 30px ;
+		display : flex ;
+		gap : 10px ;
+	  }
+
+	  .time >*{
+		border : 1px solid white ;
+		padding : 10px 20px  ;
+		border-radius: 10px;
+		font-weight: 800;
+		box-shadow: 5px 5px 5px black;
+
+
+	  }
+
+	  .time > div:hover{
+		border : 1px solid black ;
+	  }
+
+	  .days:hover{
+		border : 1px solid black ;
+
+	  }
+
+
+
+    </style>
+  </head>
+  <body>
+    <div class="heading">
+      <h4>Olymics In</h4>
+    </div>
+
+    <div class="timer">
+      <div class="days">
+        <p id="days"></p>
+        <p>Days</p>
+      </div>
+
+      <div class="time">
+        <div class="hours">
+          <p id="hours"></p>
+          <p>hours</p>
+        </div>
+
+        <div class="minutes">
+          <p id="minutes"></p>
+          <p>minutes</p>
+        </div>
+        <div class="seconds">
+          <p id="seconds"></p>
+          <p>seconds</p>
+        </div>
+      </div>
+    </div>
+
+    <script src="./script.js"></script>
+  </body>
+</html>

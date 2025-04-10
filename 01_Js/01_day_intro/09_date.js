@@ -27,8 +27,6 @@
 	console.log(date2) ;		// what is the role of the  1 Jan 1970 time 12:00:00.00 
 	console.log(date2.getMonth()) ; // for january --> 0 
 
-	
-
 
 
 }
@@ -97,7 +95,7 @@
 {
 	// date and time calcuation 
 
-	const date1 = new Date(0) ;  
+	const date1 = new Date(0) ; 
 	const date2 = new Date() ;
 
 	console.log(date2 - date1) ;  // result in milliseconds  ( for understanding date is treated in milliseonds and then operation happens ) 
