@@ -60,9 +60,9 @@ console.log("static");
 
 console.log("length before update", li1.length);
 
-const newLi = document.createElement("li");
-newLi.style.color = "red";
-newLi.innerText = "hello world";
+const newLi = document.createElement("li"); 
+newLi.style.color = "red"; 
+newLi.innerText = "hello world"; 
 document.querySelector("ul").appendChild(newLi);
 
 console.log("length after update", li1.length);
@@ -150,7 +150,7 @@ console.log("length after update", li2.length);
   // parentNode gives parentNode even if the parent is not the element  if there no parent then it gives null
   // parentElement gives parent Element when parent is an element otherwise it gives null
 
-  const textNode = document.querySelector("ul").firstChild;
+  const textNode = document.querySelector("ul").firstChild; 
 
   console.log(textNode);
   console.log(typeof textNode);
@@ -163,6 +163,8 @@ console.log("length after update", li2.length);
 
   console.log(document.childNodes[0]);
   console.log(document.childNodes[1]);
+
+
 
   document.querySelector("ul").childNodes.forEach((val) => {
     console.log(val);
@@ -191,9 +193,7 @@ console.log("length after update", li2.length);
 
 
   // sibling 
-
   const ul = document.querySelector("ul").querySelectorAll("li") ;
-
 
   console.log("sibling nodes") ;
   console.log(ul[0].nextSibling) ; // returns the  text node 
