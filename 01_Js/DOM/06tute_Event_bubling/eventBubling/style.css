@@ -1,0 +1,40 @@
+
+
+body{
+    height : 100vh ;
+    display :flex ;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(61, 58, 58);
+}
+
+
+.g-parent{
+    border : 1px solid black ;
+    width: 400px;
+    height: 400px;
+    display :flex ;
+
+    justify-content: center;
+    align-items: center;
+
+}
+
+.parent{
+
+    border : 1px solid black ;
+    width: 200px;
+    height: 200px;
+    display :flex ;
+
+    justify-content: center;
+    align-items: center;
+}
+
+.child{
+
+    border : 1px solid black ;
+    width: 100px;
+    height: 100px;
+
+}
