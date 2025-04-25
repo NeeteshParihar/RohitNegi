@@ -40,6 +40,8 @@ const child = document.querySelector(".child");
 // and outward to inward 
 
 
+// the third parameter which is false can be made true to make it follow event capturing 
+
 // it returns specific element that is actually targeted 
 function getTarget(event){
     return event.target ;

@@ -38,3 +38,14 @@ button{
     background-color  : blue ;
 }
 
+.container{
+    display: flex; 
+    align-items: center;
+}
+
+
+.styler{
+    width: 5px ;
+    height : 40px ;
+    background-color: skyblue;
+}
