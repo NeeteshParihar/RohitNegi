@@ -1,0 +1,93 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+
+.hand-sign{
+    width: 150px;
+    height: 150px;
+    border-radius: 10px;
+    border:  2px solid black;
+    
+}
+
+
+.players{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap : 20px ;
+}
+
+.vs{
+    font-size: 25px;
+    padding : 10px ;
+    background-color: rgb(31, 188, 209) ;
+    border-radius: 50%;
+    color : white ;
+    font-weight: 900;
+
+}
+
+.playerA , .playerB{
+    display: grid;
+    grid-template-columns: auto auto;
+    gap : 10px ;
+
+
+
+}
+
+
+
+.playerA .hand-sign:nth-child(3){
+    grid-column-start: 1;
+    grid-column-end: 3;
+  justify-self: center;
+
+}
+
+
+
+.playerB .hand-sign:nth-child(3){
+    grid-column-start: 1;
+    grid-column-end: 3;
+    justify-self: center;
+
+}
+
+
+.controls{
+    display: flex;
+    justify-content: center;
+    margin-top: 100px ;
+    gap : 10px ;
+}
+
+.controls button{
+    padding : 5px 10px ;
+}
+.selected{
+    border : 3px solid rgb(31, 188, 209) ;
+}
+
+.result{
+    text-align: center;
+    margin-top: 10px;
+    color : blue ;
+    font-size: 25px;
+}
+

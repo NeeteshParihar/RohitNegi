@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Cricket Quiz</title>
+
+  <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+
+<div class="quiz-container">
+  <h1>Cricket Quiz</h1>
+  
+  <form id="quizForm">
+    <div class="question">
+      <h3>1. Who has the most centuries in international cricket?</h3>
+      <label><div class="temp"><input type="radio" name="q1" value="Sachin Tendulkar" > Sachin</div> Tendulkar</label><br>
+      <label><input type="radio" name="q1" value="Virat Kohli" > Virat Kohli</label><br>
+      <label><input type="radio" name="q1" value="Ricky Ponting"> Ricky Ponting</label><br>
+      <label><input type="radio" name="q1" value="Jacques Kallis"> Jacques Kallis</label>
+    </div>
+
+    <div class="question">
+      <h3>2. Which country won the first ICC Cricket World Cup?</h3>
+      <label><input type="radio" name="q2" value="Australia" > Australia</label><br>
+      <label><input type="radio" name="q2" value="England"> England</label><br>
+      <label><input type="radio" name="q2" value="West Indies"> West Indies</label><br>
+      <label><input type="radio" name="q2" value="India"> India</label>
+    </div>
+
+    <div class="question">
+      <h3>3. Who is known as the 'God of Cricket'?</h3>
+      <label><input type="radio" name="q3" value="Virat Kohli" > Virat Kohli</label><br>
+      <label><input type="radio" name="q3" value="Don Bradman"> Don Bradman</label><br>
+      <label><input type="radio" name="q3" value="MS Dhoni"> MS Dhoni</label><br>
+      <label><input type="radio" name="q3" value="Sachin Tendulkar"> Sachin Tendulkar</label>
+    </div>
+
+    <div class="question">
+      <h3>4. What is the highest individual score in ODI cricket?</h3>
+      <label><input type="radio" name="q4" value="264" > 264</label><br>
+      <label><input type="radio" name="q4" value="200"> 200</label><br>
+      <label><input type="radio" name="q4" value="237"> 237</label><br>
+      <label><input type="radio" name="q4" value="275"> 275</label>
+    </div>
+
+    <button type="submit">Submit</button>
+    <button type="reset">reset</button>
+
+  </form>
+
+  <p class="score"></p>
+</div>
+
+<script  src="./script.js"></script>
+
+</body>
+</html>

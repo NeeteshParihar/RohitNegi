@@ -1,0 +1,95 @@
+
+
+.hide{
+    display: none;
+}
+
+.show{
+    display: block;
+}
+
+.correct-choice{
+    background-color: rgb(7, 209, 7);
+    padding : 5px 0px;
+    font-weight: 900;
+    border : none ;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.incorrect-choice{
+    background-color: rgb(209, 20, 7);
+    padding : 5px 0px;
+    font-weight: 900;
+    border : none ;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+
+body{
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+    height : 100vh ;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(19, 18, 18);
+    color : white ;
+}
+
+
+.container{
+
+    padding : 20px ;
+    border-radius: 5px;
+    border-top: 2px solid yellow;
+    width: 300px;
+    height : 300px ;
+   
+}
+
+.question{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap : 5px ;
+}
+
+button[class="option"]{
+    padding : 5px 0px;
+    font-weight: 900;
+    border : none ;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button[class="option"]:hover{
+    background-color: skyblue;
+}
+
+
+.submit {
+    background-color: yellow;
+    padding : 5px 0px;
+    font-weight: 900;
+    border : none ;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+
+.navs{
+    display: flex;
+    justify-content: space-between;
+}
+
+#left , #right{
+    background-color: transparent;
+    color : white ;
+    border : none ;
+    font-size: 25px;
+}
+
+#left:hover , #right:hover{
+    color : rgb(184, 176, 176) ;
+}
