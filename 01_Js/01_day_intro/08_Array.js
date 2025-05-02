@@ -5,6 +5,7 @@
 
   // access values using index start from 0 to length-1
   console.log(arr[0], arr[arr.length - 1]);
+  
 
   // .at can accept negative index
   console.log(arr[-1]); // undefined

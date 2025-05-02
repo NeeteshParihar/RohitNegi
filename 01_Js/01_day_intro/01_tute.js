@@ -1,4 +1,5 @@
 
+
 // browser can understand the html , css and js 
 // we can run js in interactive teminal "console"  
 
@@ -6,7 +7,7 @@ console.log("Hello world") ;
 
 // to run the js browser has the program called v8 engine to execute js 
 
-// so to run js nativly outside the browser we need runtime environment oneof is nodejs 
+// so to run js nativly outside the browser  we need runtime environment oneof is nodejs 
 
 // there are others like bun , dino etc 
 // ECMA is a associaton which standarised the js  which ensures that the core features and syntax remain same in scripting languages like javaScript , jsScript , livescript etc 
@@ -32,7 +33,6 @@ try{
 }catch(error)
 {
     console.log("you are tring to change the userName which is constant") ;
-
 }
 
 

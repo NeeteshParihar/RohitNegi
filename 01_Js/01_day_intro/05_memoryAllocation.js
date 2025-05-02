@@ -6,7 +6,7 @@
 	// non-primitves : can be  modified 
 
 
-	let num1 = 5 ;
+	let num1 = 5 ; 
 	// num1 value is copied and assigned to num2 
 	let num2 = num1 ;
 	
@@ -42,8 +42,6 @@
 
 	console.log(obj1) ;
 	console.log(obj2) ;
-
-
 
 }
 

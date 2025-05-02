@@ -1,7 +1,7 @@
 
 // understanding the dataTypes in js 
 
-// literals vs variables 
+// literals vs variables     
 
 // literals : these are the values itself and does not needed to be processed to get the values , 
 // ex : 1 , 2 , 2.5 , true , false , "neetesh"
@@ -15,7 +15,7 @@
 
 //---------- numbers  -----------
 
-// number : any real number 1.2 , 3.4 scintifi numbers 
+// number : any real number 1.2 , 3.4 scintific  numbers 
 let age = 21 ;
 console.log(age) ;
 console.log(`this is ${typeof age}`) ;
@@ -90,8 +90,8 @@ console.log(`the value type is ${typeof val2}`) ;
     
     // in order to create bigint use n as suffix
     let num2 = 12345678910111213141516n ;
-    console.log(num2 ) ;
-    console.log(typeof num2) ;
+    console.log(num2 ); 
+    console.log(typeof num2); 
 
     let num3 = 12n ;
     console.log(num3) ;
@@ -103,5 +103,7 @@ console.log(`the value type is ${typeof val2}`) ;
     console.log(1.)
 
 }
+
+
 
 

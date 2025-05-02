@@ -47,8 +47,6 @@
 	console.log(obj.hasOwnProperty("a")) ;
 	console.log(obj.hasOwnProperty("Neetesh")) ;
 
-
-
 }
 
 {
@@ -169,7 +167,7 @@
 	// Map : stores dataTypes in key-value pairs like number : boolean 
 	// unlike js objects : which stores string : with any datatype 
 
-	const map1 = new Map() ;
+	const map1 = new Map() ; 
 
 	console.log(typeof map1) ; // obj 
 
@@ -199,7 +197,7 @@
 	console.log(map2) ;
 
 	for( let pair of map2){
-		console.log(pair , Array.isArray(pair)) ;
+		console.log(pair , Array.isArray(pair)) ; // true 
 		console.log() ;
 	}
  

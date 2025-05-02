@@ -3,6 +3,7 @@
 
 console.log("hello world") ;
 console.log(Math.random()) ;
+
 // from where these methods are coming from --> global object 
 // global object --> object which can be used anywhere in the code which is built int 
 

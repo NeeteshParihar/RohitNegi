@@ -38,7 +38,6 @@
 	console.log(num.toFixed(2)) ;
 	console.log(num.toFixed(3)) ;
 
-
 	// toPrecision
 	// arguments from [1 , 100]
 	// total kiten digits chahiye from starting
@@ -55,7 +54,7 @@
 	console.log(num.toPrecision(5)) ;
 	console.log(num.toPrecision(100)) ;
 
-	// console.log(num.toPrecision(101)) ; must be 100 or less 
+	// console.log(num.toPrecision(101)) ; error bcz it must be 100 or less 
 
 
 	// toExponent 
