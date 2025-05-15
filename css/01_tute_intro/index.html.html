@@ -16,6 +16,8 @@
 		}
 	</style>
 
+	<link rel="stylesheet" href="./style.css">
+
 </head>
 <body>
 	<!-- inline css  : tag ke andar css -->
@@ -25,12 +27,23 @@
 	  <!-- child inherites styles from its parent container -->
 
 	<h1  >Hello world</h1>
-	<ul style="color:black; background-color: aqua;padding:10px;" >
-		<li>pen</li>
-		<li>coffee</li>
-		<li>lamp</li>
-		<li>table</li>
+	<ul draggable="true" style="color:black; background-color: aqua;padding:10px;" >
+		<li class="pen">pen</li>
+		<li id="coffee">coffee</li>
+		<li class="item">lamp</li>
+		<li class="item" >table</li>
 	</ul>
+
+	<p draggable="true">Lorem ipsum dolor sit amet.</p>
+	<p contenteditable="true">Lorem ipsum dolor sit.</p>
 	
+	<section>
+		<div>
+			<p>lorem5</p>
+		</div>
+	</section>
+
+
+
 </body>
 </html>

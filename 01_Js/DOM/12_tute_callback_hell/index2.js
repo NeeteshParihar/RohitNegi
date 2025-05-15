@@ -5,7 +5,6 @@
 
 
 
-
 // syncrhonus nature 
 
 
@@ -20,12 +19,7 @@ while( new Date()- time < 2000){
 console.log("20") ;
 console.log("30") ;
 
-
-
-
-
 // asynchrouns nature 
-
 
 console.clear() ;
 
@@ -37,7 +31,7 @@ console.log("10");
 setTimeout(()=>{
     console.log("20");
 
-},2000);
+},2000);   
 
 console.log("30") ;
 

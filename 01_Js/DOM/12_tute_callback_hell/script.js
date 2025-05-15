@@ -44,10 +44,7 @@ function meet(name){
 
 
 fetchUser(greet) ;
-fetchUser(meet) ;
-
-
-
+fetchUser(meet)  ; 
 
 function operation( a , b , op){
     return op(a , b) ;
@@ -63,7 +60,7 @@ console.log(operation(2,3  , (a , b)=>a*b));
 const arr = [1,2,3,4,5,6];
 
 function filter1(num){
-    if(num*num % 2== 0) return true ;
+    if(num*num % 2 == 0) return true ;
     else return false ;
 }
 

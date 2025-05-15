@@ -1,0 +1,871 @@
+[
+  {
+    "restaurantPoster": "https://example.com/poster0.jpg",
+    "restaurantName": "Pizza Hut",
+    "avgRating": 4.5,
+    "timeToDeliver": {
+      "minTime": 26,
+      "maxTime": 37
+    },
+    "categories": [
+      "Pizzas"
+    ],
+    "address": "Kalani Nagar",
+    "offer": "UPTO 48% OFF",
+    "price": {
+      "minPrice": 130,
+      "maxPrice": 418
+    },
+    "isVeg": "veg",
+    "distance": 4.1,
+    "menu": [
+      {
+        "img": "https://example.com/dish0_6.jpg",
+        "rating": 4.0,
+        "timeToPrepare": 29,
+        "price": 133,
+        "isVeg": true
+      },
+      {
+        "img": "https://example.com/dish0_35.jpg",
+        "rating": 4.7,
+        "timeToPrepare": 11,
+        "price": 240,
+        "isVeg": false
+      },
+      {
+        "img": "https://example.com/dish0_74.jpg",
+        "rating": 3.9,
+        "timeToPrepare": 10,
+        "price": 107,
+        "isVeg": true
+      }
+    ]
+  },
+  {
+    "restaurantPoster": "https://example.com/poster1.jpg",
+    "restaurantName": "Burger King",
+    "avgRating": 4.2,
+    "timeToDeliver": {
+      "minTime": 25,
+      "maxTime": 32
+    },
+    "categories": [
+      "Burgers",
+      "Fast Food"
+    ],
+    "address": "MG Road",
+    "offer": "UPTO 33% OFF",
+    "price": {
+      "minPrice": 195,
+      "maxPrice": 460
+    },
+    "isVeg": "non-veg",
+    "distance": 1.4,
+    "menu": [
+      {
+        "img": "https://example.com/dish1_68.jpg",
+        "rating": 3.7,
+        "timeToPrepare": 19,
+        "price": 209,
+        "isVeg": true
+      },
+      {
+        "img": "https://example.com/dish1_45.jpg",
+        "rating": 4.6,
+        "timeToPrepare": 15,
+        "price": 201,
+        "isVeg": true
+      },
+      {
+        "img": "https://example.com/dish1_77.jpg",
+        "rating": 3.6,
+        "timeToPrepare": 19,
+        "price": 117,
+        "isVeg": true
+      }
+    ]
+  },
+  {
+    "restaurantPoster": "https://example.com/poster2.jpg",
+    "restaurantName": "Domino's",
+    "avgRating": 3.6,
+    "timeToDeliver": {
+      "minTime": 29,
+      "maxTime": 34
+    },
+    "categories": [
+      "Sub",
+      "Healthy"
+    ],
+    "address": "Rajwada",
+    "offer": "UPTO 40% OFF",
+    "price": {
+      "minPrice": 136,
+      "maxPrice": 251
+    },
+    "isVeg": "mix",
+    "distance": 5.5,
+    "menu": [
+      {
+        "img": "https://example.com/dish2_12.jpg",
+        "rating": 3.9,
+        "timeToPrepare": 13,
+        "price": 161,
+        "isVeg": true
+      },
+      {
+        "img": "https://example.com/dish2_1.jpg",
+        "rating": 4.9,
+        "timeToPrepare": 25,
+        "price": 137,
+        "isVeg": false
+      },
+      {
+        "img": "https://example.com/dish2_25.jpg",
+        "rating": 4.5,
+        "timeToPrepare": 28,
+        "price": 209,
+        "isVeg": false
+      }
+    ]
+  },
+  {
+    "restaurantPoster": "https://example.com/poster3.jpg",
+    "restaurantName": "McDonald's",
+    "avgRating": 4.2,
+    "timeToDeliver": {
+      "minTime": 25,
+      "maxTime": 31
+    },
+    "categories": [
+      "South Indian"
+    ],
+    "address": "Vijay Nagar",
+    "offer": "UPTO 56% OFF",
+    "price": {
+      "minPrice": 116,
+      "maxPrice": 227
+    },
+    "isVeg": "mix",
+    "distance": 1.5,
+    "menu": [
+      {
+        "img": "https://example.com/dish3_79.jpg",
+        "rating": 5.0,
+        "timeToPrepare": 13,
+        "price": 225,
+        "isVeg": true
+      },
+      {
+        "img": "https://example.com/dish3_39.jpg",
+        "rating": 4.9,
+        "timeToPrepare": 12,
+        "price": 229,
+        "isVeg": false
+      },
+      {
+        "img": "https://example.com/dish3_62.jpg",
+        "rating": 4.1,
+        "timeToPrepare": 18,
+        "price": 230,
+        "isVeg": true
+      }
+    ]
+  },
+  {
+    "restaurantPoster": "https://example.com/poster4.jpg",
+    "restaurantName": "Subway",
+    "avgRating": 4.0,
+    "timeToDeliver": {
+      "minTime": 33,
+      "maxTime": 40
+    },
+    "categories": [
+      "North Indian"
+    ],
+    "address": "Palasia",
+    "offer": "UPTO 58% OFF",
+    "price": {
+      "minPrice": 164,
+      "maxPrice": 313
+    },
+    "isVeg": "mix",
+    "distance": 3.6,
+    "menu": [
+      {
+        "img": "https://example.com/dish4_58.jpg",
+        "rating": 4.5,
+        "timeToPrepare": 21,
+        "price": 223,
+        "isVeg": false
+      },
+      {
+        "img": "https://example.com/dish4_52.jpg",
+        "rating": 4.1,
+        "timeToPrepare": 15,
+        "price": 128,
+        "isVeg": false
+      },
+      {
+        "img": "https://example.com/dish4_53.jpg",
+        "rating": 5.0,
+        "timeToPrepare": 26,
+        "price": 204,
+        "isVeg": false
+      }
+    ]
+  },
+  {
+    "restaurantPoster": "https://example.com/poster5.jpg",
+    "restaurantName": "Taco Bell",
+    "avgRating": 4.0,
+    "timeToDeliver": {
+      "minTime": 29,
+      "maxTime": 43
+    },
+    "categories": [
+      "Chinese"
+    ],
+    "address": "Navlakha",
+    "offer": "UPTO 35% OFF",
+    "price": {
+      "minPrice": 185,
+      "maxPrice": 322
+    },
+    "isVeg": "veg",
+    "distance": 3.3,
+    "menu": [
+      {
+        "img": "https://example.com/dish5_52.jpg",
+        "rating": 4.4,
+        "timeToPrepare": 20,
+        "price": 251,
+        "isVeg": false
+      },
+      {
+        "img": "https://example.com/dish5_50.jpg",
+        "rating": 4.1,
+        "timeToPrepare": 29,
+        "price": 192,
+        "isVeg": true
+      },
+      {
+        "img": "https://example.com/dish5_6.jpg",
+        "rating": 5.0,
+        "timeToPrepare": 16,
+        "price": 296,
+        "isVeg": false
+      }
+    ]
+  },
+  {
+    "restaurantPoster": "https://example.com/poster6.jpg",
+    "restaurantName": "KFC",
+    "avgRating": 5.0,
+    "timeToDeliver": {
+      "minTime": 30,
+      "maxTime": 40
+    },
+    "categories": [
+      "Cafe"
+    ],
+    "address": "Bhawarkua",
+    "offer": "UPTO 36% OFF",
+    "price": {
+      "minPrice": 128,
+      "maxPrice": 419
+    },
+    "isVeg": "veg",
+    "distance": 4.0,
+    "menu": [
+      {
+        "img": "https://example.com/dish6_18.jpg",
+        "rating": 4.4,
+        "timeToPrepare": 17,
+        "price": 256,
+        "isVeg": false
+      },
+      {
+        "img": "https://example.com/dish6_18.jpg",
+        "rating": 5.0,
+        "timeToPrepare": 14,
+        "price": 217,
+        "isVeg": true
+      },
+      {
+        "img": "https://example.com/dish6_4.jpg",
+        "rating": 3.9,
+        "timeToPrepare": 25,
+        "price": 200,
+        "isVeg": false
+      }
+    ]
+  },
+  {
+    "restaurantPoster": "https://example.com/poster7.jpg",
+    "restaurantName": "Haldiram's",
+    "avgRating": 4.1,
+    "timeToDeliver": {
+      "minTime": 33,
+      "maxTime": 41
+    },
+    "categories": [
+      "Desserts"
+    ],
+    "address": "Sudama Nagar",
+    "offer": "UPTO 49% OFF",
+    "price": {
+      "minPrice": 165,
+      "maxPrice": 335
+    },
+    "isVeg": "veg",
+    "distance": 6.0,
+    "menu": [
+      {
+        "img": "https://example.com/dish7_88.jpg",
+        "rating": 4.6,
+        "timeToPrepare": 25,
+        "price": 170,
+        "isVeg": true
+      },
+      {
+        "img": "https://example.com/dish7_17.jpg",
+        "rating": 4.9,
+        "timeToPrepare": 15,
+        "price": 115,
+        "isVeg": true
+      },
+      {
+        "img": "https://example.com/dish7_95.jpg",
+        "rating": 4.1,
+        "timeToPrepare": 13,
+        "price": 159,
+        "isVeg": false
+      }
+    ]
+  },
+  {
+    "restaurantPoster": "https://example.com/poster8.jpg",
+    "restaurantName": "Barbeque Nation",
+    "avgRating": 4.3,
+    "timeToDeliver": {
+      "minTime": 25,
+      "maxTime": 38
+    },
+    "categories": [
+      "Juices",
+      "Beverages"
+    ],
+    "address": "LIG",
+    "offer": "UPTO 55% OFF",
+    "price": {
+      "minPrice": 181,
+      "maxPrice": 373
+    },
+    "isVeg": "mix",
+    "distance": 5.6,
+    "menu": [
+      {
+        "img": "https://example.com/dish8_42.jpg",
+        "rating": 4.0,
+        "timeToPrepare": 25,
+        "price": 282,
+        "isVeg": false
+      },
+      {
+        "img": "https://example.com/dish8_25.jpg",
+        "rating": 3.9,
+        "timeToPrepare": 28,
+        "price": 212,
+        "isVeg": true
+      },
+      {
+        "img": "https://example.com/dish8_99.jpg",
+        "rating": 4.8,
+        "timeToPrepare": 13,
+        "price": 118,
+        "isVeg": true
+      }
+    ]
+  },
+  {
+    "restaurantPoster": "https://example.com/poster9.jpg",
+    "restaurantName": "Faasos",
+    "avgRating": 5.0,
+    "timeToDeliver": {
+      "minTime": 22,
+      "maxTime": 35
+    },
+    "categories": [
+      "Rolls",
+      "Wraps"
+    ],
+    "address": "Rau",
+    "offer": "UPTO 52% OFF",
+    "price": {
+      "minPrice": 129,
+      "maxPrice": 360
+    },
+    "isVeg": "non-veg",
+    "distance": 5.3,
+    "menu": [
+      {
+        "img": "https://example.com/dish9_98.jpg",
+        "rating": 4.7,
+        "timeToPrepare": 23,
+        "price": 270,
+        "isVeg": true
+      },
+      {
+        "img": "https://example.com/dish9_42.jpg",
+        "rating": 3.7,
+        "timeToPrepare": 25,
+        "price": 244,
+        "isVeg": false
+      },
+      {
+        "img": "https://example.com/dish9_9.jpg",
+        "rating": 5.0,
+        "timeToPrepare": 12,
+        "price": 211,
+        "isVeg": false
+      }
+    ]
+  },
+  {
+    "restaurantPoster": "https://example.com/poster10.jpg",
+    "restaurantName": "Biryani Blues",
+    "avgRating": 3.7,
+    "timeToDeliver": {
+      "minTime": 29,
+      "maxTime": 40
+    },
+    "categories": [
+      "Pizzas"
+    ],
+    "address": "Kalani Nagar",
+    "offer": "UPTO 43% OFF",
+    "price": {
+      "minPrice": 134,
+      "maxPrice": 389
+    },
+    "isVeg": "veg",
+    "distance": 4.9,
+    "menu": [
+      {
+        "img": "https://example.com/dish10_59.jpg",
+        "rating": 4.0,
+        "timeToPrepare": 10,
+        "price": 286,
+        "isVeg": false
+      },
+      {
+        "img": "https://example.com/dish10_95.jpg",
+        "rating": 4.0,
+        "timeToPrepare": 24,
+        "price": 291,
+        "isVeg": true
+      },
+      {
+        "img": "https://example.com/dish10_80.jpg",
+        "rating": 3.6,
+        "timeToPrepare": 28,
+        "price": 104,
+        "isVeg": true
+      }
+    ]
+  },
+  {
+    "restaurantPoster": "https://example.com/poster11.jpg",
+    "restaurantName": "Oven Story",
+    "avgRating": 3.9,
+    "timeToDeliver": {
+      "minTime": 33,
+      "maxTime": 43
+    },
+    "categories": [
+      "Burgers",
+      "Fast Food"
+    ],
+    "address": "MG Road",
+    "offer": "UPTO 58% OFF",
+    "price": {
+      "minPrice": 173,
+      "maxPrice": 403
+    },
+    "isVeg": "veg",
+    "distance": 1.2,
+    "menu": [
+      {
+        "img": "https://example.com/dish11_73.jpg",
+        "rating": 3.8,
+        "timeToPrepare": 21,
+        "price": 275,
+        "isVeg": true
+      },
+      {
+        "img": "https://example.com/dish11_11.jpg",
+        "rating": 4.1,
+        "timeToPrepare": 23,
+        "price": 210,
+        "isVeg": false
+      },
+      {
+        "img": "https://example.com/dish11_99.jpg",
+        "rating": 4.6,
+        "timeToPrepare": 10,
+        "price": 135,
+        "isVeg": false
+      }
+    ]
+  },
+  {
+    "restaurantPoster": "https://example.com/poster12.jpg",
+    "restaurantName": "Wow! Momo",
+    "avgRating": 4.6,
+    "timeToDeliver": {
+      "minTime": 24,
+      "maxTime": 31
+    },
+    "categories": [
+      "Sub",
+      "Healthy"
+    ],
+    "address": "Rajwada",
+    "offer": "UPTO 35% OFF",
+    "price": {
+      "minPrice": 171,
+      "maxPrice": 394
+    },
+    "isVeg": "mix",
+    "distance": 5.5,
+    "menu": [
+      {
+        "img": "https://example.com/dish12_85.jpg",
+        "rating": 3.6,
+        "timeToPrepare": 21,
+        "price": 277,
+        "isVeg": false
+      },
+      {
+        "img": "https://example.com/dish12_25.jpg",
+        "rating": 4.2,
+        "timeToPrepare": 11,
+        "price": 299,
+        "isVeg": true
+      },
+      {
+        "img": "https://example.com/dish12_14.jpg",
+        "rating": 4.9,
+        "timeToPrepare": 30,
+        "price": 200,
+        "isVeg": false
+      }
+    ]
+  },
+  {
+    "restaurantPoster": "https://example.com/poster13.jpg",
+    "restaurantName": "Behrouz Biryani",
+    "avgRating": 4.1,
+    "timeToDeliver": {
+      "minTime": 27,
+      "maxTime": 42
+    },
+    "categories": [
+      "South Indian"
+    ],
+    "address": "Vijay Nagar",
+    "offer": "UPTO 46% OFF",
+    "price": {
+      "minPrice": 198,
+      "maxPrice": 330
+    },
+    "isVeg": "non-veg",
+    "distance": 3.6,
+    "menu": [
+      {
+        "img": "https://example.com/dish13_28.jpg",
+        "rating": 4.1,
+        "timeToPrepare": 11,
+        "price": 271,
+        "isVeg": false
+      },
+      {
+        "img": "https://example.com/dish13_80.jpg",
+        "rating": 4.0,
+        "timeToPrepare": 26,
+        "price": 291,
+        "isVeg": false
+      },
+      {
+        "img": "https://example.com/dish13_9.jpg",
+        "rating": 4.5,
+        "timeToPrepare": 10,
+        "price": 245,
+        "isVeg": true
+      }
+    ]
+  },
+  {
+    "restaurantPoster": "https://example.com/poster14.jpg",
+    "restaurantName": "The Belgian Waffle",
+    "avgRating": 4.2,
+    "timeToDeliver": {
+      "minTime": 33,
+      "maxTime": 44
+    },
+    "categories": [
+      "North Indian"
+    ],
+    "address": "Palasia",
+    "offer": "UPTO 36% OFF",
+    "price": {
+      "minPrice": 189,
+      "maxPrice": 446
+    },
+    "isVeg": "mix",
+    "distance": 5.8,
+    "menu": [
+      {
+        "img": "https://example.com/dish14_44.jpg",
+        "rating": 3.9,
+        "timeToPrepare": 13,
+        "price": 203,
+        "isVeg": false
+      },
+      {
+        "img": "https://example.com/dish14_86.jpg",
+        "rating": 3.9,
+        "timeToPrepare": 10,
+        "price": 121,
+        "isVeg": false
+      },
+      {
+        "img": "https://example.com/dish14_32.jpg",
+        "rating": 4.4,
+        "timeToPrepare": 15,
+        "price": 280,
+        "isVeg": false
+      }
+    ]
+  },
+  {
+    "restaurantPoster": "https://example.com/poster15.jpg",
+    "restaurantName": "Dunkin'",
+    "avgRating": 3.6,
+    "timeToDeliver": {
+      "minTime": 35,
+      "maxTime": 45
+    },
+    "categories": [
+      "Chinese"
+    ],
+    "address": "Navlakha",
+    "offer": "UPTO 37% OFF",
+    "price": {
+      "minPrice": 119,
+      "maxPrice": 366
+    },
+    "isVeg": "non-veg",
+    "distance": 3.7,
+    "menu": [
+      {
+        "img": "https://example.com/dish15_44.jpg",
+        "rating": 5.0,
+        "timeToPrepare": 22,
+        "price": 223,
+        "isVeg": true
+      },
+      {
+        "img": "https://example.com/dish15_77.jpg",
+        "rating": 4.8,
+        "timeToPrepare": 22,
+        "price": 101,
+        "isVeg": true
+      },
+      {
+        "img": "https://example.com/dish15_43.jpg",
+        "rating": 3.8,
+        "timeToPrepare": 25,
+        "price": 174,
+        "isVeg": false
+      }
+    ]
+  },
+  {
+    "restaurantPoster": "https://example.com/poster16.jpg",
+    "restaurantName": "Starbucks",
+    "avgRating": 3.8,
+    "timeToDeliver": {
+      "minTime": 24,
+      "maxTime": 38
+    },
+    "categories": [
+      "Cafe"
+    ],
+    "address": "Bhawarkua",
+    "offer": "UPTO 48% OFF",
+    "price": {
+      "minPrice": 130,
+      "maxPrice": 405
+    },
+    "isVeg": "non-veg",
+    "distance": 2.1,
+    "menu": [
+      {
+        "img": "https://example.com/dish16_61.jpg",
+        "rating": 4.6,
+        "timeToPrepare": 21,
+        "price": 265,
+        "isVeg": false
+      },
+      {
+        "img": "https://example.com/dish16_16.jpg",
+        "rating": 4.9,
+        "timeToPrepare": 28,
+        "price": 262,
+        "isVeg": false
+      },
+      {
+        "img": "https://example.com/dish16_31.jpg",
+        "rating": 4.2,
+        "timeToPrepare": 15,
+        "price": 295,
+        "isVeg": true
+      }
+    ]
+  },
+  {
+    "restaurantPoster": "https://example.com/poster17.jpg",
+    "restaurantName": "Cafe Coffee Day",
+    "avgRating": 3.7,
+    "timeToDeliver": {
+      "minTime": 26,
+      "maxTime": 36
+    },
+    "categories": [
+      "Desserts"
+    ],
+    "address": "Sudama Nagar",
+    "offer": "UPTO 37% OFF",
+    "price": {
+      "minPrice": 124,
+      "maxPrice": 265
+    },
+    "isVeg": "mix",
+    "distance": 4.3,
+    "menu": [
+      {
+        "img": "https://example.com/dish17_42.jpg",
+        "rating": 4.8,
+        "timeToPrepare": 25,
+        "price": 134,
+        "isVeg": false
+      },
+      {
+        "img": "https://example.com/dish17_48.jpg",
+        "rating": 3.9,
+        "timeToPrepare": 30,
+        "price": 281,
+        "isVeg": false
+      },
+      {
+        "img": "https://example.com/dish17_60.jpg",
+        "rating": 3.9,
+        "timeToPrepare": 24,
+        "price": 205,
+        "isVeg": true
+      }
+    ]
+  },
+  {
+    "restaurantPoster": "https://example.com/poster18.jpg",
+    "restaurantName": "La Pino'z",
+    "avgRating": 4.6,
+    "timeToDeliver": {
+      "minTime": 32,
+      "maxTime": 45
+    },
+    "categories": [
+      "Juices",
+      "Beverages"
+    ],
+    "address": "LIG",
+    "offer": "UPTO 38% OFF",
+    "price": {
+      "minPrice": 142,
+      "maxPrice": 433
+    },
+    "isVeg": "veg",
+    "distance": 1.0,
+    "menu": [
+      {
+        "img": "https://example.com/dish18_62.jpg",
+        "rating": 4.5,
+        "timeToPrepare": 18,
+        "price": 253,
+        "isVeg": true
+      },
+      {
+        "img": "https://example.com/dish18_90.jpg",
+        "rating": 3.8,
+        "timeToPrepare": 12,
+        "price": 259,
+        "isVeg": false
+      },
+      {
+        "img": "https://example.com/dish18_96.jpg",
+        "rating": 4.3,
+        "timeToPrepare": 29,
+        "price": 144,
+        "isVeg": false
+      }
+    ]
+  },
+  {
+    "restaurantPoster": "https://example.com/poster19.jpg",
+    "restaurantName": "Chai Sutta Bar",
+    "avgRating": 4.1,
+    "timeToDeliver": {
+      "minTime": 20,
+      "maxTime": 26
+    },
+    "categories": [
+      "Rolls",
+      "Wraps"
+    ],
+    "address": "Rau",
+    "offer": "UPTO 59% OFF",
+    "price": {
+      "minPrice": 197,
+      "maxPrice": 308
+    },
+    "isVeg": "non-veg",
+    "distance": 1.0,
+    "menu": [
+      {
+        "img": "https://example.com/dish19_27.jpg",
+        "rating": 4.1,
+        "timeToPrepare": 15,
+        "price": 151,
+        "isVeg": false
+      },
+      {
+        "img": "https://example.com/dish19_59.jpg",
+        "rating": 4.7,
+        "timeToPrepare": 16,
+        "price": 281,
+        "isVeg": true
+      },
+      {
+        "img": "https://example.com/dish19_80.jpg",
+        "rating": 4.9,
+        "timeToPrepare": 19,
+        "price": 282,
+        "isVeg": true
+      }
+    ]
+  }
+]
+

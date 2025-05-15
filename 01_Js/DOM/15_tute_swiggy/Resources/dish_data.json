@@ -1,0 +1,67 @@
+[
+    {
+      "dishImg": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto/PC_Mweb/Pizza.png",
+      "dishName": "Pizza"
+    },
+    {
+      "dishImg": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto/PC_Mweb/Biryani.png",
+      "dishName": "Biryani"
+    },
+    {
+      "dishImg": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto/PC_Mweb/Burger.png",
+      "dishName": "Burger"
+    },
+    {
+      "dishImg": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto/PC_Mweb/Rolls.png",
+      "dishName": "Rolls"
+    },
+    {
+      "dishImg": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto/PC_Mweb/North%20Indian.png",
+      "dishName": "North Indian"
+    },
+    {
+      "dishImg": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto/PC_Mweb/Chinese.png",
+      "dishName": "Chinese"
+    },
+    {
+      "dishImg": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto/PC_Mweb/Khichdi.png",
+      "dishName": "Khichdi"
+    },
+    {
+      "dishImg": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto/PC_Mweb/Noodles.png",
+      "dishName": "Noodles"
+    },
+    {
+      "dishImg": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto/PC_Mweb/Paratha.png",
+      "dishName": "Paratha"
+    },
+    {
+      "dishImg": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto/PC_Mweb/Shake.png",
+      "dishName": "Shake"
+    },
+    {
+      "dishImg": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto/PC_Mweb/Chole%20Bhature.png",
+      "dishName": "Chole Bhature"
+    },
+    {
+      "dishImg": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto/PC_Mweb/Cake.png",
+      "dishName": "Cake"
+    },
+    {
+      "dishImg": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto/PC_Mweb/Ice%20Cream.png",
+      "dishName": "Ice Cream"
+    },
+    {
+      "dishImg": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto/PC_Mweb/Pasta.png",
+      "dishName": "Pasta"
+    },
+    {
+      "dishImg": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto/PC_Mweb/Momo.png",
+      "dishName": "Momo"
+    },
+    {
+      "dishImg": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto/PC_Mweb/Poha.png",
+      "dishName": "Poha"
+    }
+  ]
+  

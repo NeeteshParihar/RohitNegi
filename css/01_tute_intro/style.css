@@ -1,0 +1,129 @@
+/*  * is an universal selector  which selects all the elements in the html*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*  tag selectors */
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f0f0f0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+ul {
+    list-style: none;
+    padding: 20px 10px;
+    width: 200px;
+    height: 200px;
+    font-size: 18px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+
+ul:hover{
+   box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+
+h1 {
+    color: #333;
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+
+/*  id selectors */
+
+/* #coffee {
+
+    font-size: 20px;
+    color: #333;
+    font-weight: bold;
+}
+
+.pen {
+    font-size: 20px;
+    color: #333;
+    font-weight: bold;
+
+}
+
+.item {
+    font-size : 20px ;
+    color : #333 ;
+    font-weight: bold;
+} */
+
+/*  select multiple items  */
+
+.pen,
+#coffee,
+.item {
+    font-size: 20px;
+    color: #333;
+    font-weight: bold;
+
+}
+
+/* attribute selector */
+
+/* bo para select karo jisme attribute draggable true ho */
+p[draggable="true"] {
+    margin-top : 10px ;
+    font-size: 20px;
+    color: #333;
+    font-weight: bold;
+}
+
+p[contenteditable="true"] {
+    margin-top : 10px ;
+    font-size: 20px;
+    color: #333;
+    font-weight: bold;
+    padding : 10px;
+    border-radius : 5px ;
+}
+
+p[contenteditable="true"]:focus {
+    outline : 1px solid grey ;
+
+}
+
+
+/*  desendent selectors
+*/
+
+section p {
+    font-size: 20px;
+    color: #333;
+    font-weight: bold;
+    margin-top : 10px ;
+}
+
+/* child selector */
+
+section > div {
+    margin-top: 10px;
+    font-size: 20px;
+   background-color: #c9c3c3;
+    padding : 10px ;
+    border-radius : 5px ;
+}
+
+
+
+
+
+

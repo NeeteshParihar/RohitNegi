@@ -1,0 +1,173 @@
+[
+    {
+      "imgOfRestaurant": "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8cmVzdGF1cmFudHxlbnwwfHwwfHx8MA%3D%3D",
+      "rating": "2.7",
+      "tag": "splash",
+      "type": {
+        "originA": "italian",
+        "originB": "north-indian"
+      },
+      "tableBookingPrice": "1500",
+      "venue": {
+        "address": "Essentia Luxury Hotel, Pipliyahana, Indore",
+        "distance": "5.7 km"
+      },
+      "offerings": ["table booking"],
+      "offers": ["Flat 35% off on pre-booking", "Free dessert on orders above ₹1000", "10% off for first-time diners"],
+      "bankOffers": ["Up to 10% off with bank offers", "15% cashback on HDFC credit cards"]
+    },
+    {
+      "imgOfRestaurant": "https://plus.unsplash.com/premium_photo-1661433201283-fcb240e88ad4?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OXx8cmVzdGF1cmFudHxlbnwwfHwwfHx8MA%3D%3D",
+      "rating": "4.5",
+      "tag": "basil-kitchen",
+      "type": {
+        "originA": "continental",
+        "originB": "chinese"
+      },
+      "tableBookingPrice": "1800",
+      "venue": {
+        "address": "C21 Mall, Vijay Nagar, Indore",
+        "distance": "3.2 km"
+      },
+      "offerings": ["table booking", "buffet"],
+      "offers": ["20% off on buffet", "Free mocktail with dinner"],
+      "bankOffers": ["5% cashback with ICICI cards", "BOB cardholders get free appetizers"]
+    },
+    {
+      "imgOfRestaurant": "https://images.unsplash.com/photo-1508424757105-b6d5ad9329d0?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8N3x8cmVzdGF1cmFudHxlbnwwfHwwfHx8MA%3D%3D",
+      "rating": "4.1",
+      "tag": "spice-nation",
+      "type": {
+        "originA": "north-indian",
+        "originB": "mughlai"
+      },
+      "tableBookingPrice": "1300",
+      "venue": {
+        "address": "TI Mall, MG Road, Indore",
+        "distance": "6.5 km"
+      },
+      "offerings": ["buffet"],
+      "offers": ["Buy 2 buffets, get 1 free", "20% off on weekdays"],
+      "bankOffers": ["10% off with Axis Bank", "₹200 off with SBI card"]
+    },
+    {
+      "imgOfRestaurant": "https://plus.unsplash.com/premium_photo-1686090448301-4c453ee74718?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTN8fHJlc3RhdXJhbnR8ZW58MHx8MHx8fDA%3D",
+      "rating": "3.9",
+      "tag": "urban-punjab",
+      "type": {
+        "originA": "punjabi",
+        "originB": "tandoori"
+      },
+      "tableBookingPrice": "1100",
+      "venue": {
+        "address": "Near Meghdoot Garden, Vijay Nagar, Indore",
+        "distance": "4.0 km"
+      },
+      "offerings": ["table booking"],
+      "offers": ["Flat 25% off on dinner", "Free kulfi with combo meal"],
+      "bankOffers": ["10% instant discount with Yes Bank"]
+    },
+    {
+      "imgOfRestaurant": "https://images.unsplash.com/photo-1552566626-52f8b828add9?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTh8fHJlc3RhdXJhbnR8ZW58MHx8MHx8fDA%3D",
+      "rating": "4.3",
+      "tag": "china-town",
+      "type": {
+        "originA": "chinese",
+        "originB": "thai"
+      },
+      "tableBookingPrice": "1400",
+      "venue": {
+        "address": "RNT Marg, Indore",
+        "distance": "2.5 km"
+      },
+      "offerings": ["table booking", "buffet"],
+      "offers": ["10% off on orders above ₹800", "Free drink with lunch combo"],
+      "bankOffers": ["Extra 5% with Kotak Mahindra", "Axis credit card users get 1+1 on main course"]
+    },
+    {
+      "imgOfRestaurant": "https://images.unsplash.com/photo-1551632436-cbf8dd35adfa?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTR8fHJlc3RhdXJhbnR8ZW58MHx8MHx8fDA%3D",
+      "rating": "4.0",
+      "tag": "grill-nation",
+      "type": {
+        "originA": "barbecue",
+        "originB": "continental"
+      },
+      "tableBookingPrice": "1600",
+      "venue": {
+        "address": "Phoenix Citadel, Indore",
+        "distance": "3.8 km"
+      },
+      "offerings": ["buffet"],
+      "offers": ["Free starter with buffet", "Unlimited grill at ₹999"],
+      "bankOffers": ["Flat ₹150 off with Federal Bank", "Cashback on Paytm Wallet"]
+    },
+    {
+      "imgOfRestaurant": "https://images.unsplash.com/photo-1579027989536-b7b1f875659b?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NDZ8fHJlc3RhdXJhbnR8ZW58MHx8MHx8fDA%3D",
+      "rating": "4.6",
+      "tag": "herbs-n-spices",
+      "type": {
+        "originA": "south-indian",
+        "originB": "vegan"
+      },
+      "tableBookingPrice": "1000",
+      "venue": {
+        "address": "Old Palasia, Indore",
+        "distance": "2.9 km"
+      },
+      "offerings": ["table booking"],
+      "offers": ["Flat ₹100 off on Dosa Festival", "10% off on dine-in"],
+      "bankOffers": ["Cashback with PhonePe UPI", "IndusInd Bank users get ₹50 off"]
+    },
+    {
+      "imgOfRestaurant": "https://images.unsplash.com/photo-1474898856510-884a2c0be546?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NDJ8fHJlc3RhdXJhbnR8ZW58MHx8MHx8fDA%3D",
+      "rating": "3.5",
+      "tag": "mystic-bistro",
+      "type": {
+        "originA": "mexican",
+        "originB": "italian"
+      },
+      "tableBookingPrice": "1250",
+      "venue": {
+        "address": "Treasure Island Next, Indore",
+        "distance": "5.1 km"
+      },
+      "offerings": ["buffet"],
+      "offers": ["30% off on buffet weekdays", "Complimentary nachos with meal"],
+      "bankOffers": ["₹100 cashback on AU Bank cards"]
+    },
+    {
+      "imgOfRestaurant": "https://plus.unsplash.com/premium_photo-1661954531673-440d23a6eb79?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NDV8fHJlc3RhdXJhbnR8ZW58MHx8MHx8fDA%3D",
+      "rating": "4.8",
+      "tag": "rajwada-thali",
+      "type": {
+        "originA": "rajasthani",
+        "originB": "gujarati"
+      },
+      "tableBookingPrice": "950",
+      "venue": {
+        "address": "Near Rajwada Palace, Indore",
+        "distance": "1.5 km"
+      },
+      "offerings": ["table booking"],
+      "offers": ["Unlimited thali at ₹899", "Free sweet dish with lunch"],
+      "bankOffers": ["Special ₹100 off with HDFC Debit Card"]
+    },
+    {
+      "imgOfRestaurant": "https://images.unsplash.com/photo-1521917441209-e886f0404a7b?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NjZ8fHJlc3RhdXJhbnR8ZW58MHx8MHx8fDA%3D",
+      "rating": "4.2",
+      "tag": "saffron-leaf",
+      "type": {
+        "originA": "kashmiri",
+        "originB": "north-indian"
+      },
+      "tableBookingPrice": "1700",
+      "venue": {
+        "address": "Bhawarkuan, Indore",
+        "distance": "6.0 km"
+      },
+      "offerings": ["table booking", "buffet"],
+      "offers": ["15% off on lunch buffet", "Buy 1, get 1 free on Sunday brunch"],
+      "bankOffers": ["10% off with IDFC Bank", "Cashback with Amazon Pay"]
+    }
+  ]
+  

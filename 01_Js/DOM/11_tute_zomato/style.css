@@ -1,0 +1,16 @@
+
+#container{
+    display : flex ;
+    flex-wrap:wrap;
+
+}
+
+.cart{
+    margin : 10px ;
+    min-width: 50px;
+    border : 1px solid black ;
+    padding : 10px ;
+    border-radius: 5px;
+    background-color: midnightblue;
+    color : white ;
+}
