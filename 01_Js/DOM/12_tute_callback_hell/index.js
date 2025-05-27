@@ -12,6 +12,7 @@ function placeOrder(fn) {
 
 
 function prePareOrder(fn) {
+
     console.log("prepraring order...");
 
     setTimeout(() => {
@@ -23,6 +24,7 @@ function prePareOrder(fn) {
 
 
 function pickUp(fn) {
+
     console.log("partner going to pickup...");
 
     setTimeout(() => {
@@ -82,6 +84,8 @@ placeOrder(() => {
     })
 
 }); 
+
+
 
 
 

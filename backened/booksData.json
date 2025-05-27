@@ -1,0 +1,33 @@
+{
+    "books": [
+        {
+            "id": 1,
+            "name": "the last drop of water",
+            "author": "Neetesh Parihar",
+            "year": 2027,
+            "genre": "conceptual"
+        },
+        {
+            "id": 2,
+            "name": "To Kill a Mockingbird",
+            "author": "Harper Lee",
+            "year": 1960,
+            "genre": "Fiction"
+        },
+        {
+            "id": 12,
+            "name": "rain in the space",
+            "author": "Neetesh Parihar",
+            "year": 2027,
+            "genre": "mind diging"
+        },
+        {
+            "id": 13,
+            "name": "the first planet",
+            "author": "Neetesh Parihar",
+            "year": 2028,
+            "genre": "fiction"
+        }
+    ],
+    "id": 15
+}

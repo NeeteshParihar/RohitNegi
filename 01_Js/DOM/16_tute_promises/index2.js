@@ -2,7 +2,7 @@
 const {url} = require("./key.js") ;
 
 
-// promise is the object return by the async function which represent the future value of the async operation
+// promise is the object return by the async operation which represent the future value of the async operation
 
 // isme promise ka status undeinfed rehta hai 
 async function getData1() {
@@ -57,7 +57,7 @@ promise states : pending , resolve , reject
 
 */
 
-const res3 = fetch(url) ;
+const res3 = fetch(url) ;  
 
 
 // res.json() ; gives the body which has the response data 

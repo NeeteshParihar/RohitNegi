@@ -150,7 +150,7 @@ scroller.addEventListener("click", (event) => {
 
     const target = getTarget(event);
     if (target.tagName != "BUTTON") return;
-    const scrollAmount = 600;
+    const scrollAmount = 300;
 
     console.log(target);
 

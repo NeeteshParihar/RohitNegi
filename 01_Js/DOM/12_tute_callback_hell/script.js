@@ -1,5 +1,5 @@
 
-
+// understanding importance of a callback function 
 
 // function fetchUser(){
 

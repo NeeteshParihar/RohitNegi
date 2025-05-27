@@ -1,7 +1,7 @@
 
 // async : ek keyword hai jisse asyncchronus function define kare ja skte hai 
 // await : keyword , jo ki async func ke andar hi use hota hai , iska benefit ye hai ki ye tab tak wait karbata hai jab tak async operation 
-// complete na ho jaye 
+// complete na ho jaye / uski state jab tak  pending rehti hai 
 
 // await waits only jab promise state "pending" ho , agar resolved or reject ho then it will not wait 
 
