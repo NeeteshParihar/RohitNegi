@@ -3,7 +3,7 @@
 
 route and middleware both are handlers who handles request,
 
-handlers --> are ways to tell how the server /app is goiing to handle the reqeusts 
+handlers --> are ways to tell how the server /app it is goiing to handle the reqeusts 
 
 middleware are special type of handlers , who can listen to any http request 
 like get , patch , put , delete and others , the url of middleware should be matched
@@ -14,6 +14,7 @@ benefits --> writing the logs , verifying user , authentication , authorisation 
 in one go middlewares are handlers who act as the middleman or middleprogram ,
 which proceses user request and forwards the request to the route handler or another 
 middleware some middlewares can also send the response 
+
 
  */
 

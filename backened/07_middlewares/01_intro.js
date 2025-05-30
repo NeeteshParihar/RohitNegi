@@ -11,7 +11,7 @@ const hostname = "localhost";
  /* 
  
  in this code i did'nt used middleware app.use(express.json()) ;
- the working of this middleware is read the stream of data from request , parsed it into object 
+ the working of this middleware  to read the stream of data from request , then after  parsed it into object 
  and add a property in req object called body and req.body = parsedData , this way our middle ware works 
 
  below i did this thing manually 

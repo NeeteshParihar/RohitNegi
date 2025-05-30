@@ -6,7 +6,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "server" : "nodemon temp.js" ,
-    "dev" : "node --watch temp.js" 
+    "dev" : "node --watch ./08_adminAndUser/index.js" 
 
   },
   "author": "",

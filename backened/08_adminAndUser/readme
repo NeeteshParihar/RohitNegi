@@ -1,0 +1,21 @@
+
+// designing the admin and user data abse 
+// files needed --> admins.json , users.json  
+/*  
+    admin.json --> object notation , containing multiple admins followed by array --> "neetesh" : [.....] ---> food Items 
+    users.json --> objectnotaion , same structure as admins.json , but the array represents the cart 
+
+    function for read and write operations --> 
+
+    divide --> intwo two parts --> admin system and users system 
+
+*/
+
+
+
+
+
+
+
+
+

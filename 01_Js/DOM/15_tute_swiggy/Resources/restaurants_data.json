@@ -11,7 +11,7 @@
       "Pizzas"
     ],
     "address": "Kalani Nagar",
-    "offer": "UPTO 48% OFF",
+    "offer": 50 ,
     "price": {
       "minPrice": 130,
       "maxPrice": 418
