@@ -10,6 +10,9 @@ body {
 
 }
 
+.hide{
+    display: none !important;
+}
 
 .flex {
     display: flex;
@@ -25,6 +28,9 @@ body {
 
 .flex-column {
     flex-direction: column;
+}
+.no-wrap{
+    flex-wrap: nowrap;
 }
 
 .gap-1 {

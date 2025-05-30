@@ -1,0 +1,217 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size : 1.2vw ;
+
+}
+.body{
+    font-family: "Roboto", sans-serif;
+    width : 100vw ;
+
+}
+
+
+
+.navbar{
+    font-size : 1rem;
+    font-weight: 400;
+    justify-content: space-evenly;
+    padding : 10px ;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    background-color: #fff;
+    width : 100vw ;
+
+}
+
+.navbar > img{
+    width : 50px ;
+}
+
+.navbar>.location{
+    display: flex;
+    align-items: center;
+    gap : 8px ;
+}
+
+.navbar>.location>p:first-child{
+    border-bottom : 2px solid black;
+    font-weight : 400;
+}
+
+.navbar>.location>p:nth-child(2){
+    color : rgb(104, 102, 102);
+    font-size : 0.8em;
+
+}
+.location:hover >p:first-child{
+    color : rgb(255, 94, 0);
+    border-bottom : 2px solid rgb(255, 94, 0);
+}
+
+.location>p:last-child {
+   color : rgb(255, 94, 0);
+}
+
+.navbar > .offer img{
+    width : 20px ;
+}
+
+.navbar img{
+    width : 4vw;
+}
+
+.search-location{
+    position: fixed;
+    z-index : 1 ;
+    top : 0 ;
+    left : 0 ;
+    width : 30vw ;
+    bottom:0;
+    background-color: #fff;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+
+    display : flex ;
+    flex-direction: column;
+    gap: 20px;
+    padding: 20px;
+    align-items: center;
+
+}
+.search-location >*{
+    width : 80% ;
+
+}
+
+.search-location > .back button{
+    background-color: transparent;
+    border: none;
+    font-size: 1.5rem;
+    color: #5c4d4d;
+    cursor: pointer;
+}
+
+.search-location >.search-box > input{
+    width : 100% ;
+    padding: 10px;
+    border: 1px solid #857b7b;
+    border-radius: 5px;
+    font-size: 1rem;
+
+}
+
+.search-location >.gps-box{
+   border : 1px solid #857b7b ;
+   padding : 10px ;
+    border-radius: 5px;
+}
+
+.search-location >.gps-box >div:last-child{
+    font-size : 0.8rem;
+    color: rgb(139, 134, 134);
+    font-weight :600;
+    padding-left : 1.5rem ;
+}
+
+.search-location >.gps-box  .gps:hover{
+    color : orangered ;
+}
+
+.search-location button:hover{
+    color: orangered;
+    border: none;
+    cursor: pointer;
+    
+}
+
+.gps-box span {
+    color: orangered;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+
+
+/* @media (max-width: 1000px) {
+  body {
+    font-size: 12px;
+  }
+}
+
+@media (min-width: 1024px) {
+  body {
+    font-size: 18px;
+  }
+} */
+
+/* Container for both dishes and restaurants */
+.for-non-dish {
+  padding: 2rem;
+  max-width: 1200px;
+  margin: auto;
+}
+
+/* Section: Top Dishes and Restaurants */
+.top-dish,
+.top-restaurants {
+    border : 1px solid grey ;
+  margin-bottom: 3rem;
+  padding: 1.5rem;
+  border-radius: 1rem;
+}
+
+/* Shared control section */
+.controls {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+
+/* Heading with responsive font */
+.controls h4 {
+  font-size: clamp(1.2rem, 2vw, 1.5rem);
+  font-weight: 600;
+  color: #333;
+}
+
+/* Button container alignment (with flex classes if not using Tailwind) */
+.dish-controller,
+.restaurant-controller {
+  display: flex;
+  gap: 5px;
+}
+
+/* Navigation buttons */
+button.fas {
+  background-color: #ffffff;
+  border: 1px solid #ccc;
+  border-radius: 50%;
+  padding: 0.6rem 0.8rem;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s, transform 0.2s;
+}
+
+button.fas:hover {
+  background-color: #eee;
+  transform: scale(1.05);
+}
+
+button.pointer {
+  cursor: pointer;
+}
+
+/* Responsive grid for dishes/restaurants (optional enhancement) */
+#dishes,
+#restaurants {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(160px, 1fr));
+  gap: 1.2rem;
+}
+

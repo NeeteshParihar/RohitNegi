@@ -4,16 +4,153 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>food</title>
+    <title>Order Food Online</title>
+    <link rel="icon" href="../images/logo.png">
+    <script src="https://kit.fontawesome.com/5382125053.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="../util.css">
+    <link rel="stylesheet" href="./food_style.css">
 </head>
 
 <body>
 
 
-    
 
-    <script src="./food_script.js"></script>
-    
+    <div class="navbar flex  align-center ">
+
+        <img src="../images/logo.png" alt="">
+
+        <div class="location no-wrap pointer " id="location-trigger">
+            <p>Other</p>
+            <p>risi Nagar , Rajwada, Indore ,MadhyaPradesh</p>
+            <p class="fa-solid fa-chevron-down">
+            </p>
+        </div>
+
+        <div class="corporate flex align-center no-wrap gap-1">
+
+            <span class="fa-solid fa-briefcase">
+               
+            </span>
+
+            <p>Swiggy Corporate</p>
+
+        </div>
+
+        <div class="search flex align-center no-wrap gap-1">
+
+            <span class="fa fa-search">
+
+            </span>
+
+            <p>Search</p>
+
+        </div>
+
+        <div class="offer flex align-center no-wrap  gap-1">
+
+            <span>
+                <img src="../images/offer.png" alt="">
+            </span>
+
+            <p>Offer <sup>new</sup></p>
+
+        </div>
+
+        <div class="help flex align-center no-wrap   gap-1">
+
+            <span class="fa fa-question-circle" aria-hidden="true">
+            </span>
+
+            <p>Help</p>
+
+        </div>
+
+
+        <div class="sign-in flex align-center no-wrap  gap-1">
+
+            <span class="fa fa-user">
+                <!-- icon -->
+            </span>
+
+            <p>Sign In</p>
+
+        </div>
+
+
+        <div class="cart flex align-center no-wrap gap-1">
+
+            <span class="fa-solid fa-cart-shopping">
+            </span>
+
+            <p>Cart</p>
+
+        </div>
+
+    </div>
+
+    <div class="search-location hide">
+
+        <div class="back" ><button class="pointer" id="gps-button">X</button></div>
+        <div class="search-box">
+            <input type="text" placeholder="Search for area , street name..">
+        </div>
+        <div class="gps-box">
+            <div class="flex gap-1">
+                <span class="fa-solid fa-location-dot">
+                </span>
+                <p class="gps">Get current location</p>                
+            </div>
+
+            <div>
+                <p>Using GPS</p>
+            </div>
+        </div>
+
+
+
+    </div>
+
+    <div class="for-dish">
+        <!-- Content for dishes goes here -->
+    </div>
+
+    <div class="for-non-dish">
+
+        <div class="top-dish">
+            <div class="controls">
+                <h4>What's on your mind?</h4>
+                <div class="dish-controller flex justify-end navigation-button">
+                    <button class="left-dish fas fa-arrow-left pointer"></button>
+                    <button class="right-dish fas fa-arrow-right pointer"></button>
+                </div>
+            </div>
+            <div id="dishes">
+                <!-- dish will be inserted here -->
+            </div>
+        </div>
+
+        <div class="top-restaurants">
+            <div class="controls">
+                <h4>Top restaurant chains</h4>
+                <div class="restaurant-controller flex justify-end navigation-button">
+                    <button class="left-restaurant fas fa-arrow-left pointer"></button>
+                    <button class="right-restaurant fas fa-arrow-right pointer"></button>
+                </div>
+            </div>
+            <div id="restaurants">
+                <!-- restaurant items go here -->
+            </div>
+        </div>
+
+    </div>
+
+    <div id="restaurant-container">
+        <!-- additional restaurant content -->
+    </div>
+
+
+     <script type="module" src="./location.js"></script>
+     <script type="module" src="./renderDish.js"></script>
 
 </body>
 

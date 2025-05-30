@@ -12,11 +12,11 @@ const parameter = obj.get("category") ;
 
 if(parameter){
 
-    body.innerHTML = parameter ;
+    // body.innerHTML = parameter ;
 
 }else{
 
-    body.innerHTML = "food restuarants" ;
+    // body.innerHTML = "food restuarants" ;
 }
  
 
