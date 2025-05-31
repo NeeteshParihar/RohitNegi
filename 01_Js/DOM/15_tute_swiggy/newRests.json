@@ -2,7 +2,7 @@
     {
         "restaurantId": 0,
         "restaurantPoster": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_900/COLLECTIONS/IMAGES/MERCH/2024/8/20/60f66049-cfcc-4f0b-891f-624938aac2bc_Pizza%20(6).png",
-        "restaurantName": "Restaurant 0",
+        "restaurantName": "KFC",
         "avgRating": 3.5,
         "timeToDeliver": {
             "minTime": 28,
@@ -1228,7 +1228,7 @@
     {
         "restaurantId": 1,
         "restaurantPoster": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_660/4984551ad60868fdaae51a03ddf62396",
-        "restaurantName": "Restaurant 1",
+        "restaurantName": "Pizza Hut",
         "avgRating": 4.4,
         "timeToDeliver": {
             "minTime": 29,
@@ -2062,7 +2062,7 @@
     {
         "restaurantId": 2,
         "restaurantPoster": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_660/FOOD_CATALOG/IMAGES/CMS/2024/5/1/c0d5dca4-f34f-44cd-bd0a-c61d6599e0da_e8faf38b-f17f-4688-92dc-e3b11269780e.jpg",
-        "restaurantName": "Restaurant 2",
+        "restaurantName": "Burger King",
         "avgRating": 4.2,
         "timeToDeliver": {
             "minTime": 21,
@@ -2385,7 +2385,7 @@
     {
         "restaurantId": 3,
         "restaurantPoster": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_660/FOOD_CATALOG/IMAGES/CMS/2025/3/2/a757d2d1-a61d-4c1e-8d56-d24b867408c4_e8413975-7f46-484e-b62e-ae5d86f2a413.jpg",
-        "restaurantName": "Restaurant 3",
+        "restaurantName": "McDonald's",
         "avgRating": 3.9,
         "timeToDeliver": {
             "minTime": 30,
@@ -2708,7 +2708,7 @@
     {
         "restaurantId": 4,
         "restaurantPoster": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_660/FOOD_CATALOG/IMAGES/CMS/2025/2/6/965e9bd5-a2fc-47f0-9da3-86a4b929c8b3_e5091148-e915-497a-932e-377b4862f284.jpeg",
-        "restaurantName": "Restaurant 4",
+        "restaurantName": "Domino's Pizza",
         "avgRating": 3.6,
         "timeToDeliver": {
             "minTime": 21,
@@ -3633,7 +3633,7 @@
     {
         "restaurantId": 5,
         "restaurantPoster": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_660/RX_THUMBNAIL/IMAGES/VENDOR/2025/1/17/c38ea456-0ebe-4358-beaf-2771c87462b8_1027772.jpg",
-        "restaurantName": "Restaurant 5",
+        "restaurantName": "Subway",
         "avgRating": 4.5,
         "timeToDeliver": {
             "minTime": 20,
@@ -4761,7 +4761,7 @@
     {
         "restaurantId": 6,
         "restaurantPoster": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_660/RX_THUMBNAIL/IMAGES/VENDOR/2024/5/2/ede6d6f6-34d4-4405-90c3-5eef938b2a90_877503.jpg",
-        "restaurantName": "Restaurant 6",
+        "restaurantName": "Starbucks",
         "avgRating": 4,
         "timeToDeliver": {
             "minTime": 20,
@@ -5938,7 +5938,7 @@
     {
         "restaurantId": 7,
         "restaurantPoster": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_660/FOOD_CATALOG/IMAGES/CMS/2024/6/6/a49b7e52-60e7-4cb8-b452-2bdd5996cd7a_d05f040b-b787-42d4-8840-9c3a5d496d2f.jpg",
-        "restaurantName": "Restaurant 7",
+        "restaurantName": "Taco Bell",
         "avgRating": 4.5,
         "timeToDeliver": {
             "minTime": 24,
@@ -7262,7 +7262,7 @@
     {
         "restaurantId": 8,
         "restaurantPoster": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_660/FOOD_CATALOG/IMAGES/CMS/2025/2/8/2a9a8fb0-19da-4c4a-bb16-87001387cdaa_51f0368d-e310-4fd6-bb17-4ff1964c59c4.jpg",
-        "restaurantName": "Restaurant 8",
+        "restaurantName": "Wendy's",
         "avgRating": 4.2,
         "timeToDeliver": {
             "minTime": 26,
@@ -8243,7 +8243,7 @@
     {
         "restaurantId": 9,
         "restaurantPoster": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_660/a85c6621f85843fbe8479f463f3134b7",
-        "restaurantName": "Restaurant 9",
+        "restaurantName": "Chick-fil-A",
         "avgRating": 4.1,
         "timeToDeliver": {
             "minTime": 26,
@@ -9273,7 +9273,7 @@
     {
         "restaurantId": 10,
         "restaurantPoster": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_660/5fe4444a065b60c4fe39ef975222c12b",
-        "restaurantName": "Restaurant 10",
+        "restaurantName": "Dunkin'",
         "avgRating": 4,
         "timeToDeliver": {
             "minTime": 29,
@@ -10296,7 +10296,7 @@
     {
         "restaurantId": 11,
         "restaurantPoster": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_660/FOOD_CATALOG/IMAGES/CMS/2025/1/13/ed75193d-4aeb-4854-9b8c-d2c993a4436e_00db40b7-336b-4276-960b-9afebb0b514b.jpg",
-        "restaurantName": "Restaurant 11",
+        "restaurantName": "Papa John's",
         "avgRating": 3.6,
         "timeToDeliver": {
             "minTime": 20,
@@ -10871,7 +10871,7 @@
     {
         "restaurantId": 12,
         "restaurantPoster": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_660/b98ddefebdc61e8a2ecb083f61e54c18",
-        "restaurantName": "Restaurant 12",
+        "restaurantName": "Chipotle",
         "avgRating": 4.3,
         "timeToDeliver": {
             "minTime": 27,
@@ -11495,7 +11495,7 @@
     {
         "restaurantId": 13,
         "restaurantPoster": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_660/FOOD_CATALOG/IMAGES/CMS/2024/8/3/2f17bbb8-b60a-4d42-bb24-eb0cf36c5331_f47c842e-311f-4321-9752-c65b5d78399c.jpg",
-        "restaurantName": "Restaurant 13",
+        "restaurantName": "Five Guys",
         "avgRating": 3.8,
         "timeToDeliver": {
             "minTime": 29,
@@ -12070,7 +12070,7 @@
     {
         "restaurantId": 14,
         "restaurantPoster": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_660/FOOD_CATALOG/IMAGES/CMS/2025/3/5/36249398-2ac6-4642-ba0e-d1b419f4c6a8_a7a82078-cb6b-4e76-af7c-32bf8949e0ac.jpg",
-        "restaurantName": "Restaurant 14",
+        "restaurantName": "Panda Express",
         "avgRating": 4.6,
         "timeToDeliver": {
             "minTime": 29,
@@ -12841,7 +12841,7 @@
     {
         "restaurantId": 15,
         "restaurantPoster": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_660/RX_THUMBNAIL/IMAGES/VENDOR/2024/10/28/bdc050b1-216a-4048-b36b-5088b0420569_964285%20(1).jpg",
-        "restaurantName": "Restaurant 15",
+        "restaurantName": "Sagar Ratna",
         "avgRating": 4,
         "timeToDeliver": {
             "minTime": 28,
@@ -14018,7 +14018,7 @@
     {
         "restaurantId": 16,
         "restaurantPoster": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_660/FOOD_CATALOG/IMAGES/CMS/2024/10/15/d7296a9e-6204-42b4-b572-c912f0b462ce_032538c7-7382-462b-b8f3-d1e93e13e80c.jpg",
-        "restaurantName": "Restaurant 16",
+        "restaurantName": "MTR",
         "avgRating": 4.7,
         "timeToDeliver": {
             "minTime": 25,
@@ -14397,7 +14397,7 @@
     {
         "restaurantId": 17,
         "restaurantPoster": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_660/RX_THUMBNAIL/IMAGES/VENDOR/2025/1/21/ff7b9dae-3093-4569-a814-a3b9ace78281_1031275.jpg",
-        "restaurantName": "Restaurant 17",
+        "restaurantName": "A2B (Adyar Ananda Bhavan)",
         "avgRating": 4.4,
         "timeToDeliver": {
             "minTime": 27,
@@ -14874,7 +14874,7 @@
     {
         "restaurantId": 18,
         "restaurantPoster": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_660/FOOD_CATALOG/IMAGES/CMS/2024/8/19/274cbc92-73e7-49f1-8811-d5c63aff8a18_8ce09579-43e5-47f1-87d3-7d2ec27edcb0.jpg",
-        "restaurantName": "Restaurant 18",
+        "restaurantName": "Hotel Saravana Bhavan",
         "avgRating": 4.8,
         "timeToDeliver": {
             "minTime": 24,
@@ -15855,7 +15855,7 @@
     {
         "restaurantId": 19,
         "restaurantPoster": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_660/FOOD_CATALOG/IMAGES/CMS/2025/4/17/8267ff21-1cc8-418a-9e28-e47b0bb7efef_5cf4f617-9ce2-42d2-a8e3-23e1114c99e2.jpg_compressed",
-        "restaurantName": "Restaurant 19",
+        "restaurantName": "Dosa Plaza",
         "avgRating": 4.3,
         "timeToDeliver": {
             "minTime": 21,
@@ -16885,7 +16885,7 @@
     {
         "restaurantId": 20,
         "restaurantPoster": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_660/RX_THUMBNAIL/IMAGES/VENDOR/2024/12/30/0d6cedad-111f-4e20-a2c0-7f3bcd3a8086_1018676.jpg",
-        "restaurantName": "Restaurant 20",
+        "restaurantName": "Namma Veedu Vasanta Bhavan",
         "avgRating": 4.8,
         "timeToDeliver": {
             "minTime": 21,
@@ -17159,7 +17159,7 @@
     {
         "restaurantId": 21,
         "restaurantPoster": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_660/RX_THUMBNAIL/IMAGES/VENDOR/2025/4/17/1bf4606d-e135-4773-943f-ba5f38205ffe_1081221.jpg",
-        "restaurantName": "Restaurant 21",
+        "restaurantName": "Ratna Cafe",
         "avgRating": 5,
         "timeToDeliver": {
             "minTime": 25,
@@ -17741,7 +17741,7 @@
     {
         "restaurantId": 22,
         "restaurantPoster": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_660/FOOD_CATALOG/IMAGES/CMS/2024/5/1/c0d5dca4-f34f-44cd-bd0a-c61d6599e0da_e8faf38b-f17f-4688-92dc-e3b11269780e.jpg",
-        "restaurantName": "Restaurant 22",
+        "restaurantName": "Murugan Idli Shop",
         "avgRating": 4.2,
         "timeToDeliver": {
             "minTime": 24,
@@ -18064,7 +18064,7 @@
     {
         "restaurantId": 23,
         "restaurantPoster": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_660/FOOD_CATALOG/IMAGES/CMS/2025/3/2/a757d2d1-a61d-4c1e-8d56-d24b867408c4_e8413975-7f46-484e-b62e-ae5d86f2a413.jpg",
-        "restaurantName": "Restaurant 23",
+        "restaurantName": "Bukhara",
         "avgRating": 4,
         "timeToDeliver": {
             "minTime": 26,
@@ -18898,7 +18898,7 @@
     {
         "restaurantId": 24,
         "restaurantPoster": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_660/1f790d58fabc54b7ca58e2507187336b",
-        "restaurantName": "Restaurant 24",
+        "restaurantName": "Gulati Restaurant",
         "avgRating": 4.5,
         "timeToDeliver": {
             "minTime": 26,
@@ -19620,7 +19620,7 @@
     {
         "restaurantId": 25,
         "restaurantPoster": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_660/7f3b15b4dca72019e3139349bd82131d",
-        "restaurantName": "Restaurant 25",
+        "restaurantName": "Pind Balluchi",
         "avgRating": 4.5,
         "timeToDeliver": {
             "minTime": 21,
@@ -19992,7 +19992,7 @@
     {
         "restaurantId": 26,
         "restaurantPoster": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_660/67c62ba8e806d8bb120afe24181227e2",
-        "restaurantName": "Restaurant 26",
+        "restaurantName": "Karim's",
         "avgRating": 4.6,
         "timeToDeliver": {
             "minTime": 28,
@@ -20420,7 +20420,7 @@
     {
         "restaurantId": 27,
         "restaurantPoster": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_660/0eda55568f2401d1a0765a54d8667747",
-        "restaurantName": "Restaurant 27",
+        "restaurantName": "Punjabi By Nature",
         "avgRating": 4,
         "timeToDeliver": {
             "minTime": 23,
@@ -20792,7 +20792,7 @@
     {
         "restaurantId": 28,
         "restaurantPoster": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_660/FOOD_CATALOG/IMAGES/CMS/2025/1/15/dd4902f4-0b43-4a6a-ac3a-0e9be8c5d0a5_1ea867d5-58ae-48ae-a8ab-f5dd3cb3fd11.jpg",
-        "restaurantName": "Restaurant 28",
+        "restaurantName": "Chandni Chowk Delights",
         "avgRating": 4.8,
         "timeToDeliver": {
             "minTime": 21,
@@ -21969,7 +21969,7 @@
     {
         "restaurantId": 29,
         "restaurantPoster": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_660/d4162c3da2f252d0fc59a82c73dae205",
-        "restaurantName": "Restaurant 29",
+        "restaurantName": "Kake Da Hotel",
         "avgRating": 3.8,
         "timeToDeliver": {
             "minTime": 28,

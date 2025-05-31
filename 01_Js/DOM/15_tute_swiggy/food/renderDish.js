@@ -1,6 +1,7 @@
 import { createNewElement, getTarget, fetchData } from "../util.js"
 
 const container = document.getElementById("dishes");
+const restContainer = document.getElementById("restaurants");
 
 const path = "../Resources/restaurant.json";
 
@@ -29,7 +30,7 @@ function getDishes(data) {
         }
     )
 
-    console.log(dishes[0]);
+    // console.log(dishes[0]);
 
     return  dishes;
 }
@@ -53,12 +54,20 @@ function prepareDishCart(dish){
 
 }
 
+function prepareRestCart(rest){
+
+
+
+}
+
 async function renderDished(path) {
 
     try {
 
         const data = await fetchData(path);
 
+
+        // some of the dishes  
         const res = getDishes(data);
 
          const dishes = res.slice(0,Math.min(res.length , 10)) ;
@@ -78,5 +87,28 @@ async function renderDished(path) {
 
 }
 
+async function renderTopRest(path){
+
+    try{
+
+        const rest = await fetchData(path);
+
+        const topRest = rest.slice(10);
+
+        console.log(topRest[0]);
+        topRest.forEach(rest=>{
+            const restCart = prepareRestCart(rest);
+            restContainer.appendChild(restCart);
+
+        })
+
+    }catch(err){
+        console.log(err);
+    }
+
+}
 
 renderDished(path);
+renderTopRest(path);
+
+
