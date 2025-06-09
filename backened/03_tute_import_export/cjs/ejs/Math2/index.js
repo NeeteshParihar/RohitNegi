@@ -16,7 +16,7 @@ console.log(abs(-1)) ;
 */
 
 
-import  {abs }  from "./way3.js";
+import  {abs}  from "./way3.js";
 
 console.log(abs);
 

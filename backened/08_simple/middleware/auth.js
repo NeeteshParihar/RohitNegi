@@ -1,6 +1,6 @@
 
 
-function auth( res , req , next){
+function auth( req , res , next){
 
     let hasAcess = true ;  // later we can implement this part 
 

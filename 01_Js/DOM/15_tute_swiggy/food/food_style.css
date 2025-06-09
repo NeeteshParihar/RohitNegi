@@ -155,14 +155,11 @@ html{
   max-width: 1200px;
   margin: auto;
 }
+.top-restaurants , .top-dish{
+  
+  width: 95%;
+  margin : auto ;
 
-/* Section: Top Dishes and Restaurants */
-.top-dish,
-.top-restaurants {
-    border : 1px solid grey ;
-  margin-bottom: 3rem;
-  padding: 1.5rem;
-  border-radius: 1rem;
 }
 
 /* Shared control section */
@@ -178,6 +175,7 @@ html{
   font-size: clamp(1.2rem, 2vw, 1.5rem);
   font-weight: 600;
   color: #333;
+  font-size : 18px ;
 }
 
 /* Button container alignment (with flex classes if not using Tailwind) */
@@ -208,12 +206,3 @@ button.pointer {
 }
 
 /* Responsive grid for dishes/restaurants (optional enhancement) */
-#dishes,
-#restaurants {
-  display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(160px, 1fr));
-  gap: 1.2rem;
-}
-
-
-

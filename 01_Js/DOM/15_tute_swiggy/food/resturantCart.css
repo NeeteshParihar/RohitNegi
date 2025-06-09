@@ -1,0 +1,163 @@
+#restaurants{
+    gap: 1rem;    
+    overflow-x: auto;
+    white-space: nowrap;
+    scroll-snap-type: x mandatory;
+    display: flex;
+   
+}
+
+
+#restaurants::-webkit-scrollbar {
+    display: none;
+}
+#restaurants {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+}
+
+.restaurant-cart:hover {
+  transform: scale(1.02);
+}
+
+.restaurant-cart .upperCart {
+  position: relative;
+  width: 100%;
+  height: 60%;
+  overflow: hidden;
+  border-radius: 10px;  
+}
+
+.restaurant-cart {
+  width: 250px;
+  height: 300px;
+  flex-shrink: 0;
+  border-radius: 10px;
+  transition: transform 0.2s ease;
+  transform-origin: center;
+  will-change: transform;
+}
+
+.restaurant-cart .lowerCart {
+  padding: 8px 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  height: 40%; /* optional */
+}
+
+.restaurant-cart:hover {
+  transform: scale(1.02);
+}
+
+
+/* 👇 dark overlay to ensure white text shows well */
+.restaurant-cart .upperCart .overlay {
+  position: absolute;
+  inset: 0; /* shorthand for top: 0; right: 0; bottom: 0; left: 0 */
+  
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.322));
+  z-index: 1;
+
+}
+
+.restaurant-cart .upperCart .poster {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+  position: relative;
+  z-index: 0;
+}
+
+.restaurant-cart .upperCart .offer {
+  position: absolute;
+  bottom: 4px;
+  left: 5px;
+  color: #fff;
+  padding: 0px 5px;
+  border-radius: 3px;
+  font-size: 1.8em;
+  font-weight: 900;
+  z-index: 2; /* 👈 on top of overlay */
+}
+.restaurant-cart .lowerCart {
+   padding : 8px  10px ; 
+  display :flex ;
+  flex-direction: column;
+  gap : 5px ;
+}
+
+.restaurant-cart .lowerCart .name {
+  font-size: 18px;
+  font-weight: 600;
+  color: #272927;
+}
+
+
+
+.restaurant-cart .lowerCart .rating-and-Time {
+  display: flex;
+  align-items: center;
+  gap : 2px ;
+  font-size: 14px;
+
+}
+
+
+
+.restaurant-cart .lowerCart .rating-and-Time  .star{
+ padding : 2px ;
+ background-color: green;
+ color : white ;
+ border-radius: 50%;
+ font-size : 14px;
+}
+
+.restaurant-cart .lowerCart .rating {
+ font-weight: bold;
+ color : rgb(66, 62, 62);
+ font-size : 16px ;
+  align-self: end;
+
+ 
+}
+
+.restaurant-cart .lowerCart .dot {
+ font-weight: bold;
+ color : rgb(94, 93, 93);
+ padding : 0px 2px ;
+ font-size : 16px ;
+  align-self: end;
+
+ 
+}
+
+
+
+.restaurant-cart .lowerCart .time {
+ font-weight: bold;
+ color : rgb(46, 44, 44);
+ padding : 0px 2px ;
+ font-size : 16px ;
+  align-self: end;
+
+ 
+}
+
+
+.restaurant-cart .lowerCart .cuisines {
+   
+ font-size: 13px;
+  color: #4d4b4b;
+
+}
+
+
+
+.restaurant-cart .lowerCart .address {
+  font-size: 13px;
+  color: #4d4b4b;
+
+}
+
