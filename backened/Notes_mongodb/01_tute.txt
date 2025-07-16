@@ -1,0 +1,51 @@
+
+<----- CRUD operations ------------->
+
+#saving 
+1.save() : removes extra fields which are not in shema , if types of values are not correct like name is not string but types number it will converted into string , but in some cases the field gets rejected for ex: name : undefined
+// returns object with all the details as the promise object 
+
+2. using create() in this we can directly use our model to insert the data 
+    // returns an object , with id and all the details  as the promise  object 
+
+above methods does not returns query object but promise so cant use exec()
+
+///<--------------- finding the data ------------------->    
+
+const res = find()  or findOne() or findById() all returns an query object 
+// when we uses await it acts as the promise but it not actually the promise 
+
+1.findOne() , if is nothing given to it  , or empty object passed it fetches first document from collection  , in case of queries like {name:undefined} the name gets rejected and an empty object is taken so call bcms findOne({})  and this is the same case 
+
+2.find() , returns all docs is {} or nothing given as argument, otherwise returns all the docus matching the query
+
+3.findById(id) , gives the object which matches id or null in case of not matching or no arguments 
+
+4. the all the mathods like save , create , find etc returns the thenables they have promise like features but they are not promises , but we can use it as the promise 
+// but we should use find().exec() this return the promise // read about it and stack trace in erros 
+
+
+// so uses exec() for each find method  and all those which returns the query object 
+
+const queryObj = Blog.find();
+
+const  ans = await queryObj.exec(); // returns actaull promise 
+
+# methods that returns query object and we can use exec with them 
+1. find() , findOne() , findById()
+2.updateOne(), updateMany(), findOneAndUpdate()
+3.deleteOne(), deleteMany(), findOneAndDelete()
+4.count operations like countDocuments() , estimatedDocumentCount()
+5. Aggregation (aggregate())
+
+
+<----------- delete---------------->
+
+1.deleteOne and deleteMany returns {acknowledge: , count : } ;
+2. findOneAndDelete if no one find returns nulls otherwise returns deleted object 
+
+
+#by default validators run only on when we are inserting to the database  
+Validators only run on the create or save methods.
+
+3. exist() method retuns null or object id 
