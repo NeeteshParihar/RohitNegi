@@ -1,6 +1,9 @@
 
 import JWT from 'jsonwebtoken';
-import redisclient from './redis';
+import redisclient from './redis.js';
+import dotenv from 'dotenv';
+
+dotenv.config({ path: './temp.env' });
 
 const PRIVATE_KEY = process.env.PRIVATE_KEY; // wee have already loaded the env-variable in the index file then we do not need to again config them here for loading 
 

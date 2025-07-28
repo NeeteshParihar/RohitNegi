@@ -1,6 +1,6 @@
 
 import express from "express";
-import auth from "../comp/auth";
+import auth from "../comp/auth.js";
 const commentRouter = express.Router();
 
 commentRouter.get('/', auth,  async(req, res)=>{

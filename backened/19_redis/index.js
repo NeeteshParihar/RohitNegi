@@ -1,10 +1,12 @@
 import mongoose from "mongoose";
 import express from "express";
 import dotenv from 'dotenv';
-import authRouter from "./routes/authrouter";
-import commentRouter from "./routes/comments";
+
+import authRouter from "./routes/authrouter.js";
+import commentRouter from "./routes/comments.js";
+import redisclient from "./comp/redis.js";
 import cookieParser from "cookie-parser";
-import redisclient from "./comp/redis";
+
 
 dotenv.config({path: './temp.env' });
 dotenv.config({path: './redis.env' });

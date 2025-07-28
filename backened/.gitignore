@@ -21,8 +21,6 @@ yarn.lock
 # Ignore any file named .env at any depth
 **/.env
 
-
-
 # Logs
 logs
 *.log

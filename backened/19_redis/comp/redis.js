@@ -1,7 +1,7 @@
 import { createClient } from "redis";
 import dotenv from 'dotenv';
-
 dotenv.config({ path: './redis.env' });
+
 
 const redisclient = createClient({
    username: process.env['redis-username'],

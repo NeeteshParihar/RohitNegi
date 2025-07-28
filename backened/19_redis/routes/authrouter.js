@@ -6,6 +6,9 @@ import auth from "../comp/auth.js";
 import getUser from "../comp/getUser.js";
 import getHashcode from "../comp/generateHashCode.js";
 import verifyUserPassword from "../comp/verifyPassword.js";
+import dotenv from 'dotenv';
+
+dotenv.config({path: './temp.env' });
 
 const PRIVATE_KEY = process.env.PRIVATE_KEY;
 const tokenExpiryTime = Number.parseInt(process.env.tokenExpiryTime);
@@ -15,9 +18,12 @@ const authRouter = express.Router();
 // login api , signup api , logout auth protected api 
 
 
+
 authRouter.post('/login', getUser, async(req, res) => {
 
     try {
+
+        console.log(tokenExpiryTime);
 
         const {password , emailId} = req.body;
         const existingUser = req.existingUser;
@@ -26,7 +32,7 @@ authRouter.post('/login', getUser, async(req, res) => {
 
             const accessToken = JWT.sign({emailId}, PRIVATE_KEY, {expiresIn:tokenExpiryTime});
             res.cookie('accessToken', accessToken, { 
-                expires: new Date() + tokenExpiryTime ,  // browset will not keep this cookie after the expirationTime 
+                expires:  new Date( Date.now() + tokenExpiryTime*1000 ) ,  // browset will not keep this cookie after the expirationTime 
                 httpOnly: true
             })
 
@@ -89,7 +95,7 @@ authRouter.post('/signup', getUser, async(req, res) => {
 
             res.cookie("accessToken", null, {
                 httpOnly: true, // this avoids scripts to access the accessToken 
-                expires: new Date() + tokenExpiryTime // expire it from now after 'tokenExpirytime' seconds 
+                expires:  new Date( Date.now() + tokenExpiryTime ) // expire it from now after 'tokenExpirytime' seconds 
             });
 
             res.status(201).json({
