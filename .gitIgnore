@@ -6,6 +6,12 @@ node_modules/
 .env.local
 .env.*.local
 
+# Ignore any file named .env at any depth
+**/.env
+
+# Ignore env files with suffixes or extensions
+**/.env.*
+
 # Logs
 logs
 *.log
