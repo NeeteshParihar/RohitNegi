@@ -1,0 +1,16 @@
+<--------------- Redis ------------------> 
+1. in memory database , use to store non-permament data like recent search document 
+2. the redis also keeps the copy of its memory data in the secondry storage , so in case of power cut it can backup the data.
+3. for logout the accesstoken if not became invalid , then the request can be carry-out using that token 
+so we have to store the accesstoken , so that we can block it until it expires , after expiration wee can delete it from redis. 
+
+4. we can use redis in our system as well as in remote computer or server , the second option is scalable so wee will preffer this one.
+
+<--------- installation guid to install the redis ------------>
+https://redis.io/blog/install-redis-windows-11/
+
+1. running wsl from windows powershell : wsl.exe -d ubuntu
+2. stooping wsl ubuntu instance from running from powershell : wsl -t ubuntu
+3. check the redis-server; sudo service redis-server status or start or stop 
+4.CLI means commond-line-interface : we already have installed redis cli 
+5. there is also redis insights like we have mongodb compass 

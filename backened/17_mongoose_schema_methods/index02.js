@@ -5,10 +5,15 @@ import cookieParser from "cookie-parser";
 import url from "../connectionString.js";
 import Validator from "validator";
 import bcrypt from "bcrypt";
-import dotenv from "dotenv";
+import dotenv from "dotenv"; // dotenv will load the environment varibales from the given location 
 
 // agar index02.js or server jis file main run ho raha hai usme .env nahu hai to uska path mention kardo
 dotenv.config({ path: '../.env'});
+
+
+console.log(process.env); // the environment variables are available in this process.env object 
+
+// the process.env gives us access to the environment variables: these are dynamic values injected from outside of our code 
 
 
 // console.log(process.env.connectionKey);
@@ -16,12 +21,12 @@ dotenv.config({ path: '../.env'});
 const connectionKey = process.env.connectionKey;
 
 // used for encryptionconnectionKey
-const PRIVATE_KEY = process.env.PRIVATE_KEY;
+const PRIVATE_KEY = process.env.PRIVATE_KEY; 
 const PORT = process.env.PORT;
 const tokenExpirytime = process.env.tokenExpiryTime;
 
 
-// <---------- define the schema ---------->
+// <---------- define the schema ---------->  
 
 const { Schema, model } = mongoose;
 
@@ -72,14 +77,11 @@ UserSchema.methods.checkPassword = async function(password){
 
 UserSchema.statics.getHashcode = async function (password, n = 10){
 
-
     const hashCode = await bcrypt.hash(password, n);
     return hashCode;
 }
 
-
 const Users = model("Users", UserSchema);
-
 
 const app = express();
 
