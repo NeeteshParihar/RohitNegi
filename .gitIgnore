@@ -1,17 +1,17 @@
 # Node dependencies
 **/node_modules/
 
-# Environment files
+# Environment files (any filename with .env at any level)
 .env
-.env.local
-.env.*.local
+.env.* 
+**/.env
+**/.env.*
+**/*env
+**/*.env.*
 
-# Ignore any file named .env at any depth
-**/*.env
+# Specific named env files (at any depth)
 **/temp.env
 **/redis.env
-# Ignore env files with suffixes or extensions
-**/.env.*
 
 # Logs
 logs
