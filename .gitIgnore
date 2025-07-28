@@ -1,5 +1,5 @@
 # Node dependencies
-node_modules/
+**/node_modules/
 
 # Environment files
 .env
@@ -7,8 +7,9 @@ node_modules/
 .env.*.local
 
 # Ignore any file named .env at any depth
-**/.env
-
+**/*.env
+**/temp.env
+**/redis.env
 # Ignore env files with suffixes or extensions
 **/.env.*
 
