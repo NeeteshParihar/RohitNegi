@@ -8,7 +8,7 @@ import getHashcode from "../comp/generateHashCode.js";
 import verifyUserPassword from "../comp/verifyPassword.js";
 import dotenv from 'dotenv';
 
-dotenv.config({path: './temp.env' });
+dotenv.config({path: './temp.env' }); // we have to include the env variables for each file separataly
 
 const PRIVATE_KEY = process.env.PRIVATE_KEY;
 const tokenExpiryTime = Number.parseInt(process.env.tokenExpiryTime);
